@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            max-width: 980px;
+        }
+
+        .left-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .left-section img {
+            max-width: 350px;
+            width: 100%;
+        }
+
+        .right-section {
+            flex: 1;
+            max-width: 350px;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .right-section h1 {
+            font-family: 'Billabong', cursive;
+            font-size: 50px;
+            color: #262626;
+            margin-bottom: 20px;
+        }
+
+        .right-section input[type="text"],
+        .right-section input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            background-color: #fafafa;
+        }
+
+        .right-section button {
+            width: 100%;
+            background-color: #0095f6;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+
+        .right-section .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #8e8e8e;
+            margin: 10px 0;
+        }
+
+        .right-section .divider::before,
+        .right-section .divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background-color: #ddd;
+        }
+
+        .right-section .divider span {
+            margin: 0 10px;
+            font-size: 12px;
+        }
+
+        .right-section a {
+            color: #0095f6;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .download-section {
+            margin-top: 20px;
+        }
+
+        .download-section img {
+            max-width: 150px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="C:\Users\SystemX\Desktop\web dev\я\5247112454503261815.jpg" alt="Instagram preview">
+        </div>
+        <div class="right-section">
+            <h1>Instagram</h1>
+            <input type="text" placeholder="Телефон, имя пользователя или эл. адрес">
+            <input type="password" placeholder="Пароль">
+            <button>Войти</button>
+            <div class="divider"><span>или</span></div>
+            <button style="background-color: #4267b2;">Войти через Facebook</button>
+            <a href="#">Забыли пароль?</a>
+            <div style="margin-top: 20px;">
+                У вас ещё нет аккаунта? <a href="#">Зарегистрироваться</a>
+            </div>
+            <div class="download-section">
+                <p>Установите приложение:</p>
+                <img src="C:\Users\SystemX\Desktop\web dev\я\i (2).webp" alt="App Store">
+                <img src="C:\Users\SystemX\Desktop\web dev\я\g.webp" alt="Google Play">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
